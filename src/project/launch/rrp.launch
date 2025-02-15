@@ -1,0 +1,4 @@
+<launch>
+	<node name="server" pkg="rbe500_project" type="rrp_ik_server.py"/>
+	<node name="client" pkg="rbe500_project" type="rrp_pid.py"/>
+</launch>
